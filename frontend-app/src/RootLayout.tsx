@@ -8,7 +8,7 @@ import Header from "./common/components/Header";
 
 const RootLayout = () => {
     return (
-        <Container>
+        <Container className='rootLayout-container'>
             <Header />
             <Row>
                 <Col xs={{ span: 8, offset: 2 }}>
