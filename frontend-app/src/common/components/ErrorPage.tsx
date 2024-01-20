@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useRouteError } from 'react-router-dom';
-import { ErrorDescription } from "../../interfaces";
+import { ErrorDescription } from "../interfaces";
 
 
 const ErrorPage: React.FC = () => {

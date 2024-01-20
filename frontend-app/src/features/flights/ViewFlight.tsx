@@ -24,10 +24,6 @@ const ViewFlight = () => {
                 <Form.Label>Airline Date</Form.Label>
                 <Form.Control type="text" value={record?.date} readOnly />
             </Form.Group>
-
-            <Loading loading={loading} error={error}>
-                {/* You can add additional UI components or actions here */}
-            </Loading>
         </Form>
     );
 };
